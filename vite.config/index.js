@@ -30,6 +30,7 @@ export default defineConfig((init) => {
 
         output: {
           manualChunks: undefined,
+          sanitizeFileName: false,
         },
       },
     },
