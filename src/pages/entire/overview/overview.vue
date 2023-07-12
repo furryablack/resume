@@ -1,5 +1,5 @@
 <template>
-  <div class="h-full flex flex-col py-4 items-center overflow-y-auto">
+  <div class="h-full flex flex-col pb-4 pt-6 items-center overflow-y-auto">
     <div class="max-w-3xl flex flex-col">
       <UI.HeadLine class="mb-2" />
       <UI.ContactToMe class="mb-2" />

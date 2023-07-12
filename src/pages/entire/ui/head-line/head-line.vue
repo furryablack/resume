@@ -10,7 +10,15 @@
       <li class="inline">Developer</li>
       
       <li class="inline italic text-sm text-gray-500">
-        <span class="float-right pt-2">updated at: {{ lastUpdatedAt }}</span>
+        <span class="float-right pt-2">updated at: {{ lastUpdatedAt }}
+          ::
+          <UI.NativeLink 
+            href="/resume.pdf" 
+            download="Aleksei+K+Front-end+Developer.pdf"
+          >
+            download 
+          </UI.NativeLink>
+        </span>
       </li>
     </ul>
 
@@ -19,6 +27,9 @@
 </template>
 
 <script setup>
+import { Shared } from '@shared';
+
+const { UI } = Shared;
 const lastUpdatedAt = window.lastUpdatedAt;
 </script>
 

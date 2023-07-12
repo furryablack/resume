@@ -10,7 +10,7 @@ export default defineConfig((init) => {
 
   return {
     root: PATHS.PROJECT_ROOT,
-    publicDir: 'static',
+    publicDir: 'src/shared/static',
     base: '/resume/',
 
     resolve: {
