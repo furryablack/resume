@@ -17,7 +17,6 @@
     <div class="grid grid-rows-auto grid-cols-2 items-start gap-y-1">
       <span class="text-left first-letter:font-semibold first-line:shadow-md">
         I am skilled front-end developer with <span class="underline">extensive expertise</span> in web development (7+ years) from <span class="underline">Armenia</span>.
-        <br />I have a strong knowledge of JS and TS. 
       </span> 
 
       <span class="text-left first-letter:font-semibold first-line:shadow-md">
