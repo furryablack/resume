@@ -51,6 +51,7 @@ export default defineConfig((init) => {
           data: {
             title: process.env.VITE_APP_TITLE,
             app: `<script type="module" src="${PATHS.APP_INDEX_ENTRY}"></script>`,
+            lastUpdatedAt: (new Date(Date.now())).toDateString(),
           },
         },
       }),

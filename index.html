@@ -35,10 +35,12 @@
   <!-- End Single Page Apps for GitHub Pages -->
 
   <script type="text/javascript">
-    window.lastUpdatedAt = (new Date(Date.now())).toDateString();
+    window.addEventListener('DOMContentLoaded', function() {
+      window.lastUpdatedAt = (document.getElementsByTagName('body')[0]).dataset.updated;
+    });
   </script>
 </head>
-<body>
+<body data-updated="<%- lastUpdatedAt %>">
   <%- app %>
 </body>
 </html>
