@@ -1,1 +1,0 @@
-import{o as r,g as a,h as n}from"./vendors-e2b11a08.js";const o=["href"],l={__name:"native-link",props:{href:String},setup(e){return(t,s)=>(r(),a("a",{href:e.href,class:"text-cyan-700 cursor-pointer",target:"_blank"},[n(t.$slots,"default")],8,o))}};export{l as default};

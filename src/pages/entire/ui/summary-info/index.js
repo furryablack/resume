@@ -1,3 +1,1 @@
-import { defineAsyncComponent } from 'vue';
-
-export const SummaryInfo = defineAsyncComponent(() => import('./summary-info.vue'));
+export { default as SummaryInfo } from './summary-info.vue'; 

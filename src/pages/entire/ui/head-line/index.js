@@ -1,3 +1,1 @@
-import { defineAsyncComponent } from 'vue';
-
-export const HeadLine = defineAsyncComponent(() => import('./head-line.vue'));
+export { default as HeadLine } from './head-line.vue'; 

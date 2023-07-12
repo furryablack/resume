@@ -1,3 +1,1 @@
-import { defineAsyncComponent } from 'vue';
-
-export const RootFrame = defineAsyncComponent(() => import('./root-frame.vue'));
+export { default as RootFrame } from './root-frame.vue'; 

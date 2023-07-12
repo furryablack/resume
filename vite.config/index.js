@@ -29,13 +29,7 @@ export default defineConfig((init) => {
         },
 
         output: {
-          assetFileNames: 'assets/[name].[hash].[ext]',
-
-          manualChunks(chunkPath) {
-            if (chunkPath.includes('node_modules/')) {
-              return 'vendors';
-            }
-          },
+          manualChunks: undefined,
         },
       },
     },

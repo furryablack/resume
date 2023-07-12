@@ -1,3 +1,1 @@
-import { defineAsyncComponent } from 'vue';
-
-export const ContactToMe = defineAsyncComponent(() => import('./contact-to-me.vue'));
+export { default as ContactToMe } from './contact-to-me.vue'; 
