@@ -21,6 +21,7 @@ export default defineConfig((init) => {
       target: 'es2021',
       minify: PROD ? 'esbuild' : undefined,
       assetsDir: 'app',
+      outDir: PATHS.OUTPUT_DIR,
 
       rollupOptions: {
         input: {

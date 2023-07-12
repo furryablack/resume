@@ -5,6 +5,8 @@
   "private": true,
   "scripts": {
     "vite:dev": "vite --host --config vite.config/index.js",
+    "vite:build": "vite build --config vite.config/index.js",
+    "vite:preview": "vite preview --host --config vite.config/index.js --port 4210",
     "commit": "cz",
     "commit:retry": "yarn commit -- --retry"
   },

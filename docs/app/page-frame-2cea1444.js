@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper-c27b6911.js";import{o as r,g as t,h as s}from"./vendors-e2b11a08.js";const a={},l={class:"h-full relative overflow-hidden w-full"};function c(e,n){return r(),t("div",l,[s(e.$slots,"default")])}const d=o(a,[["render",c]]);export{d as default};

@@ -1,0 +1,1 @@
+.tech-skills{display:flex;flex-direction:column}.tech-skills__section{width:9rem;white-space:nowrap;text-align:right;font-weight:600;display:flex;justify-content:center;align-items:center;position:relative}.tech-skills__section:after{transform:translateY(calc(50% + 1px));display:block;background:rgba(0,0,0,.4);height:1px;width:100%;content:" ";margin:0 6px}

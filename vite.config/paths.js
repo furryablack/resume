@@ -6,5 +6,6 @@ PATHS.APP_ENVIRONMENT = ProjectLib.IO.normalizePath(`${PATHS.PROJECT_ROOT}/envir
 PATHS.APP_SOURCE = ProjectLib.IO.normalizePath(`${PATHS.PROJECT_ROOT}/src`);
 PATHS.APP_INDEX_ENTRY = `./src/app/main.js`;
 PATHS.APP_INDEX_HTML = ProjectLib.IO.normalizePath(`${PATHS.PROJECT_ROOT}/index.html`);
+PATHS.OUTPUT_DIR = './docs';
 
 export { PATHS };
