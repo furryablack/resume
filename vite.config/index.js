@@ -11,7 +11,7 @@ export default defineConfig((init) => {
   return {
     root: PATHS.PROJECT_ROOT,
     publicDir: 'static',
-    base: process.env.GH_PAGES === 'true' ? '/resume/' : '',
+    base: '/resume/',
 
     resolve: {
       alias: ViteLib.makeAliases(),
