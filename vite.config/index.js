@@ -7,7 +7,6 @@ import { PATHS } from './paths';
 export default defineConfig((init) => {
   ViteLib.loadViteEnv(init.mode);
   const PROD = init.mode === 'production';
-  const DEV = init.mode === 'development';
 
   return {
     root: PATHS.PROJECT_ROOT,
@@ -56,6 +55,7 @@ export default defineConfig((init) => {
           data: {
             title: process.env.VITE_APP_TITLE,
             app: `<script type="module" src="${PATHS.APP_INDEX_ENTRY}"></script>`,
+            base: `<base href="/resume" />`,
           },
         },
       }),
