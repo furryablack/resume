@@ -13,7 +13,7 @@
         <span class="float-right pt-2">updated at: {{ lastUpdatedAt }}
           ::
           <UI.NativeLink 
-            href="/resume.pdf" 
+            href="/resume/resume.pdf"
             download="Aleksei+K+Front-end+Developer.pdf"
           >
             download 

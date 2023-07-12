@@ -3,6 +3,7 @@
     :href="href"
     class="text-cyan-700 cursor-pointer"
     target="_blank"
+    :download="download"
   >
     <slot />
   </a>
@@ -11,5 +12,10 @@
 <script setup>
 const props = defineProps({
   href: String,
+
+  download: {
+    type: String,
+    default: undefined,
+  }
 });
 </script>
