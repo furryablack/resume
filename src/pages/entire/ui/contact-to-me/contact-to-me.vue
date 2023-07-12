@@ -38,6 +38,14 @@
             <UI.NativeLink href="https://wa.me/37494789476">37494789476</UI.NativeLink>
           </span>
         </li>
+
+        <li class="flex flex-row justify-start">
+          <span class="contact-to-me__contact-identity">github</span>
+
+          <span>
+            <UI.NativeLink href="https://github.com/furryablack">github.com/furryablack</UI.NativeLink>
+          </span>
+        </li>
       </ul>
     </div>
   </div>
