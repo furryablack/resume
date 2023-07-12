@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col mb-4">
     <div v-if="!hideTitle">
       <h3 class="text-xl text-left font-semibold mb-1">[Experience]</h3>
     </div>

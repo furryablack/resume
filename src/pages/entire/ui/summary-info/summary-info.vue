@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col">
+  <div class="flex flex-col mb-4">
     <div class="flex items-center">
       <h3 class="text-xl text-left font-semibold mb-1">[Summary]</h3>
       

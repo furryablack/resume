@@ -1,5 +1,5 @@
 <template>
-  <div class="contact-to-me">
+  <div class="contact-to-me mb-4">
     <div class="text-left flex-col mb-1 pt-2">
       <span class="block text-sm italic">Within Armenia use 094 789 476</span>      
       <span class="block text-sm italic">From abroad use +374 94 789 476</span>

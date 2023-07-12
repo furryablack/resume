@@ -1,16 +1,15 @@
 <template>
   <div class="h-full flex flex-col pb-4 pt-6 items-center overflow-y-auto">
     <div class="max-w-3xl flex flex-col">
-      <UI.HeadLine class="mb-2" />
-      <UI.ContactToMe class="mb-2" />
-      <UI.SummaryInfo class="mb-2" />
+      <UI.HeadLine />
+      <UI.ContactToMe />
+      <UI.SummaryInfo />
 
-      <UI.CareersList class="mb-1">
+      <UI.CareersList>
         <UI.CareerItem :career="lastCareer"  />
       </UI.CareersList>
 
       <UI.CareersList 
-        class="mb-2" 
         :simple-view="true"
         :hideTitle="true"
       >
