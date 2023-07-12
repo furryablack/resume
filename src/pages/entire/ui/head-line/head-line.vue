@@ -10,7 +10,7 @@
       <li class="inline">Developer</li>
       
       <li class="inline italic text-sm text-gray-500">
-        <span class="float-right pt-2">{{ lastUpdatedAt }}</span>
+        <span class="float-right pt-2">updated at: {{ lastUpdatedAt }}</span>
       </li>
     </ul>
 
