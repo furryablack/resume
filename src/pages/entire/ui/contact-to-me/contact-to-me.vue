@@ -44,6 +44,12 @@
 
           <span>
             <UI.NativeLink href="https://github.com/furryablack">github.com/furryablack</UI.NativeLink>
+            
+            <span class="text-sm ml-2">
+              (<UI.NativeLink href="https://furryablack.github.io/resume/">
+                furryablack.github.io/resume/
+              </UI.NativeLink>)
+            </span>
           </span>
         </li>
       </ul>
