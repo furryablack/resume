@@ -19,7 +19,7 @@ export default defineConfig((init) => {
     build: {
       target: 'es2021',
       minify: PROD ? 'esbuild' : undefined,
-      assetsDir: 'resume/app',
+      assetsDir: 'app',
       outDir: PATHS.OUTPUT_DIR,
 
       rollupOptions: {
@@ -55,6 +55,7 @@ export default defineConfig((init) => {
           data: {
             title: process.env.VITE_APP_TITLE,
             app: `<script type="module" src="${PATHS.APP_INDEX_ENTRY}"></script>`,
+            base: `<base href="/resume" />`,
           },
         },
       }),
