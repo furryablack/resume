@@ -5,7 +5,7 @@
       <li class="inline px-1">+</li>
       <li class="inline">Kosianov</li>
       <li class="inline px-1">+</li>
-      <li class="inline">Fronted</li>
+      <li class="inline">Frontend</li>
       <li class="inline px-1">+</li>
       <li class="inline">Developer</li>
       
